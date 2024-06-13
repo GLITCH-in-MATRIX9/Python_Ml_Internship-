@@ -8,5 +8,5 @@ def read_csv(file_path):
         for row in csv_reader:
             print(', '.join(row))
 
-file_path = 'data.csv'  # Change this to your CSV file path
+file_path = 'data.csv'  
 read_csv(file_path)
